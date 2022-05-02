@@ -70,13 +70,12 @@
 
       p {
         position: sticky;
-        top: 650px;
+        top: 10px;
         z-index: 1;
         font-size: 3rem;
         text-align: center;
         width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         /* color: rgb(182, 48, 48); */
         color: white;
         background-color: rgba(0, 0, 0, 0.267);
@@ -87,10 +86,18 @@
         font-size: 2rem;
       }
 
+      .scroll-container {
+        background: linear-gradient(lightgrey, black);
+        width: 80%;
+        height: 1500px;
+        margin: 0 auto;
+        padding: 2rem 0;
+        border-radius: 20px;
+      }
+
       footer {
         text-align: center;
         color: rgb(182, 48, 48);
-        margin-top: 1000px;
       }
     </style>
   </head>
@@ -109,6 +116,7 @@
       <span class="woody-first-name"><b>Woody</b></span>
       <span class="woody-last-name"><b>Shirt</b></span>
     </div>
+    <div class="scroll-container"></div>
     <footer>&copy; 2022</footer>
   </body>
 </html>
