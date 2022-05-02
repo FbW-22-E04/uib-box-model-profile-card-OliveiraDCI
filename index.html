@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buzz Lightyear and Woody Shirt</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
+        background-color: lightcoral;
+      }
+
+      img {
+        display: block;
+        width: 400px;
+      }
+
+      .image-container {
+        position: relative;
+        width: 405px;
+        margin: 5vh auto;
+      }
+      .buzz-first-name,
+      .buzz-last-name,
+      .woody-first-name,
+      .woody-last-name {
+        position: absolute;
+      }
+
+      .buzz-first-name,
+      .buzz-last-name,
+      .woody-first-name,
+      .woody-last-name {
+        font-size: 3rem;
+        color: #fff;
+        border: 2px dotted rgba(255, 255, 255, 0.623);
+        border-radius: 15px;
+        background-color: #d3d3d35e;
+        padding: 3px 8px;
+      }
+
+      .buzz-first-name {
+        left: -15%;
+        top: 48%;
+      }
+
+      .buzz-last-name {
+        left: -22%;
+        top: 57%;
+      }
+
+      .woody-first-name {
+        right: -20%;
+        top: 30%;
+      }
+
+      .woody-last-name {
+        right: -17%;
+        top: 39%;
+      }
+
+      p {
+        position: sticky;
+        top: 10px;
+        z-index: 1;
+        font-size: 3rem;
+        text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        /* color: rgb(182, 48, 48); */
+        color: white;
+        background-color: rgba(0, 0, 0, 0.267);
+        border-radius: 15px;
+      }
+
+      .credits {
+        font-size: 2rem;
+      }
+
+      .scroll-container {
+        background: linear-gradient(lightgrey, black);
+        width: 80%;
+        height: 1500px;
+        margin: 0 auto;
+        padding: 2rem 0;
+        border-radius: 20px;
+      }
+
+      footer {
+        text-align: center;
+        color: rgb(182, 48, 48);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      "The important thing is that we stick together!" <br />
+      <span class="credits"> - Buzz Lightyear, 'Toy Story 2'. </span>
+    </p>
+    <div class="image-container">
+      <img
+        src="/buzz-woody.png"
+        alt="Buzz Lightyear and Woody Shirt image drawing"
+      />
+      <span class="buzz-first-name"><b>Buzz</b></span>
+      <span class="buzz-last-name"><b>Lightyear</b></span>
+      <span class="woody-first-name"><b>Woody</b></span>
+      <span class="woody-last-name"><b>Shirt</b></span>
+    </div>
+    <div class="scroll-container"></div>
+    <footer>&copy; 2022</footer>
+  </body>
+</html>
